@@ -1,0 +1,289 @@
+@media (max-width: 991.98px) {
+    #header .navbar-collapse {
+        width: 100%;
+    }
+
+    #header .nav-link {
+        margin: 0;
+    }
+
+    #header .nav-link:hover {
+        transform: none;
+    }
+}
+
+@media (max-width: 840px) {
+
+    .services .tools-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "one two"
+                             "three four"
+                             "five six";
+    }
+
+    .services .tool.-powerbi {
+        border-right: 0.1rem solid var(--color-line);
+        border-bottom: 0.1rem solid var(--color-line);
+    }
+      
+    .services .tool.-mysql {
+        border-bottom: 0.1rem solid var(--color-line);
+    }
+      
+    .services .tool.-analysis {
+        border-bottom: 0.1rem solid var(--color-line);
+        border-right: 0.1rem solid var(--color-line);
+        border-left: 0;
+    }
+      
+    .services .tool.-story {
+        border-right: 0.1rem solid var(--color-line);
+        border-left: 0;
+    }
+    
+    .services .tool.-excel {
+        border-bottom: 0.1rem solid var(--color-line);
+    }
+
+    .services img {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner .text {
+        width: 70%;
+    }
+
+    .banner .text h1 {
+        font-size: 2rem;
+    }
+
+    .banner .request {
+        padding: 1rem 1.5rem;
+        font-size: 1.4rem;
+    }
+
+
+
+      .button {
+        padding: 1.3rem 3rem;
+        font-size: 1.2rem;
+      }
+
+      footer {
+          font-size: 1rem;
+      }
+}
+
+@media (max-width: 700px) {
+    .mvv .proposal {
+        width: 15rem;
+      }
+
+    .mvv .proposal p {
+        font-size: 1.2rem;
+      }
+      
+      .mvv .mission .mvv-img {
+        width: 15rem;
+      }
+}
+
+
+@media (max-width: 600px) {
+    .banner {
+        padding: 10rem 3rem 2rem 3rem;
+    }
+
+    .banner .text {
+        width: 70%;
+    }
+
+    .banner .text h1 {
+        font-size: 1.7rem;
+    }
+
+    .banner .text h3 {
+        font-size: 1.4rem;
+    }
+
+    .banner .text p {
+        font-size: 1.3rem;
+    }
+
+    .banner .request {
+        font-size: 1.2rem;
+    }
+
+    .button {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    .portfolio p {
+        font-size: 1.3rem;
+    }
+
+    .portfolio .dashboard img {
+        width: 60%;
+      }
+
+      .services img {
+        width: 7rem;
+    }
+
+    .mvv .proposal {
+        width: 13rem;
+      }
+
+      .mvv .mission .mvv-img {
+        width: 15rem;
+      }
+
+      .contact .container {
+        width: 80%;
+        }
+
+      .contact input {
+          height: 3rem;
+      }
+
+      footer {
+          flex-direction: column;
+      }
+
+      footer div {
+          margin-bottom: 4rem;
+      }
+}
+
+@media (max-width: 500px) {
+
+    .banner .request {
+        display: none;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .mvv .proposal p {
+        width: 12rem;
+      }
+
+      .mvv .mission .mvv-img {
+        width: 10rem;
+      }
+
+      .mvv .proposal .mvv-logo {
+          width: 3rem;
+      }
+
+      .services .tools-wrapper {
+        display: flex;
+        flex-direction: column;
+      }
+
+  .services .tool.-powerbi {
+    border-right: 0rem solid var(--color-line);
+    border-bottom: 0rem solid var(--color-line);
+  }
+  
+  .services .tool.-mysql {
+    border-bottom: 0rem solid var(--color-line);
+  }
+  
+  .services .tool.-analysis {
+    border-bottom: 0rem solid var(--color-line);
+    border-right: 0rem solid var(--color-line);
+    border-left: 0;
+  }
+  
+  .services .tool.-story {
+    border-right: 0rem solid var(--color-line);
+    border-left: 0;
+  }
+
+  .services .tool.-excel {
+    border-bottom: 0rem solid var(--color-line);
+  }
+
+  .banner .text {
+    width: 65%;
+  }
+
+  .banner .text h1 {
+    font-size: 1.3rem;
+    }
+
+    .banner .text h3 {
+        font-size: 1.3rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .banner .text p {
+        font-size: 1.2rem;
+    }
+
+    .banner .request {
+        font-size: 1rem;
+    }
+
+    .portfolio {
+        padding: 5rem 2rem 3rem 2rem;
+      }
+
+    .portfolio .dashboard img {
+        width: 60%;
+      }
+
+      .portfolio .more {
+        margin-left: 1.5rem;
+        padding: 0.7rem 2rem;
+    }
+    
+    .portfolio .dashboard {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 4rem;
+        width: 100%;
+      }
+
+      .portfolio .dashboard:nth-child(even) {
+        flex-direction: column-reverse;
+      }
+
+      .portfolio .dashboard:nth-child(even) div {
+        text-align: center;
+      }
+      
+      .portfolio .dashboard div {
+        text-align: center;
+      }
+
+      .portfolio .button {
+          margin: 1rem 0 1rem 0;
+      }
+
+    .contact .container {
+        width: 90%;
+        }
+}
+
+@media (max-width: 400px) {
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+
+      .mvv .proposal p {
+        width: 8rem;
+      }
+  
+}
